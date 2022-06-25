@@ -1,0 +1,14 @@
+<p>
+    <strong>"Ola Marcio Lima"</strong>
+</p>
+<p>Poupanca: R$ {{ getPoupaca }}
+    <br>
+    <input type="text" #sacar>
+    <button (click)="setSacar(sacar.value)">Sacar</button>
+</p>
+<p>Carteira: R$ {{ getCarteira }}
+    <br>
+    <input type="text" #depositar>
+    <br>
+    <button (click)="setDepositar(depositar.value)">Sacar</button>
+</p>
