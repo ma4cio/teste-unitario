@@ -14,7 +14,7 @@ export class BankingComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  get getPoupaca(): number {
+  get getPoupanca(): number {
     return this.poupanca;
   }
   get getCarteira(): number {
